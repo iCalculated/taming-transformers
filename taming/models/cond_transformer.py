@@ -19,7 +19,7 @@ class Net2NetTransformer(pl.LightningModule):
         transformer_config,
         first_stage_config,
         cond_stage_config,
-        cond_stage_config2,
+        cond_stage_config2=None,
         permuter_config=None,
         ckpt_path=None,
         ignore_keys=[],
